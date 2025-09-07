@@ -1,0 +1,49 @@
+#    ███████╗███╗   ███╗ ██████╗     ███████╗████████╗ █████╗ ███████╗███████╗
+#    ██╔════╝████╗ ████║██╔═══██╗    ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██╔════╝
+#    █████╗  ██╔████╔██║██║   ██║    ███████╗   ██║   ███████║█████╗  █████╗
+#    ██╔══╝  ██║╚██╔╝██║██║   ██║    ╚════██║   ██║   ██╔══██║██╔══╝  ██╔══╝
+#    ███████╗██║ ╚═╝ ██║╚██████╔╝    ███████║   ██║   ██║  ██║██║     ██║
+#    ╚══════╝╚═╝     ╚═╝ ╚═════╝     ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝
+#
+#
+#           Emo Staff - Configuration
+#
+#  DEVELOPED BY CAMELIAAM
+#  Owner: eman1421 | Website: emocraft.ddnsking.com
+#
+
+Admin-CMD: true
+Cooldown-Seconds: 5
+Admin-Cooldown-Seconds: 5
+
+Messages:
+  Prefix: "&2&lEmo&aStaff&7 » "
+  StaffMode-Enabled: "%prefix% &aStaff Mode Enabled"
+  StaffMode-Disabled: "%prefix% &cStaff Mode Disabled"
+  No-Permission: "%prefix% &cNo Permission!"
+  Players-Only: "%prefix% &cPlayers only!"
+  Admin-Denied: "%prefix% &cYou are not allowed to use StaffMode."
+  On-Cooldown: "%prefix% &cYou can use this command in &e%seconds%s"
+  Version: "%prefix% EmoStaff v1.0.0 by cameliaam"
+  Config-Reloaded: "%prefix% &aConfig reloaded!"
+
+  Admin:
+    Usage: "&7Usage: &c/emostaff admin [permission|staffmode] <player> <true/false>"
+    Already: "%prefix% &e%player% &7is already in that state!"
+    Updated-On: "%prefix% &aAdmin access for &e%player% &ais now &aENABLED"
+    Updated-Off: "%prefix% &cAdmin access for &e%player% &cis now &cDISABLED"
+    Permission-Granted: "%prefix% &aYou granted admin permission to &e%player%."
+    Permission-Revoked: "%prefix% &cYou revoked admin permission from &e%player%."
+    StaffMode-On: "%prefix% &aYou enabled staff mode for &e%player%."
+    StaffMode-Off: "%prefix% &cYou disabled staff mode for &e%player%."
+    Revoked: "%prefix% &cYour access to /staffmode has been revoked."
+    Restored: "%prefix% &aYou can now use /staffmode."
+
+GUI:
+  Title: "&8» &cStaff Members"
+  Size: 27
+  Item:
+    Material: BLACK_STAINED_GLASS_PANE
+    Name: ""
+    Lore: []
+    Glow: false

@@ -1,0 +1,30 @@
+name: EmoStaff
+version: 1.0.0
+main: ir.emostaff.emostaff.EmoStaff
+author: cameliaam
+owner: eman1421
+description: A Private Plugin For Emo Craft And Made By Dragon Teams.
+
+commands:
+  emostaff:
+    description: EmoStaff Main Command
+    usage: /emostaff <reload|version|admin>
+    permission: emostaff.use
+  staffmode:
+    description: Toggle Staff Mode
+    usage: /staffmode
+    permission: emostaff.usemode
+
+permissions:
+  emostaff.use:
+    description: Use /emostaff command
+    default: op
+  emostaff.reload:
+    description: Reload the plugin
+    default: op
+  emostaff.admin:
+    description: Control admin usage of staffmode
+    default: op
+  emostaff.usemode:
+    description: Use /staffmode command
+    default: op
